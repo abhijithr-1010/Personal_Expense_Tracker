@@ -16,8 +16,7 @@ mangoledger-expense/
 ## Before you run
 
 Atlas needs a free cluster, a DB user, and `0.0.0.0/0` in Network Access.
-`backend/.env` already exists. Replace the placeholder `MONGO_URI` with the real Atlas string:
-
+`backend/.env` already holds a test Atlas connection string, so the project runs as it is. If the connection fails, replace `MONGO_URI` with your own Atlas string:
 ```
 PORT=5000
 MONGO_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/mangoledger?retryWrites=true&w=majority
