@@ -1,5 +1,8 @@
 # mangoledger-expense
 
+- Live demo: https://personal-expense-tracker-sigma-teal.vercel.app
+- Backend API: https://personal-expense-tracker-49ur.onrender.com/api/expenses
+- Note: the free backend sleeps when idle, so the first load can take about 50 seconds.
 **MangoLedger** - Personal Expense Tracker. MERN app (MongoDB Atlas, Express, React with Vite, Node).
 Add, view, edit and delete daily expenses. The total amount spent shows at the top and updates on every change.
 
