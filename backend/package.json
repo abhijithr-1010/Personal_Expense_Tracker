@@ -1,0 +1,17 @@
+{
+  "name": "mangoledger-expense",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MangoLedger API - Personal Expense Tracker backend",
+  "main": "src/boot.js",
+  "scripts": {
+    "start": "node src/boot.js",
+    "dev": "node --watch src/boot.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
